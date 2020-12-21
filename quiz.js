@@ -1,19 +1,3 @@
-var btnElement = document.querySelector("#start");
-var divContEL = document.querySelector(".divContainer");
-var hElement = document.querySelector("#title");
-var finishDiv = document.querySelector(".finish-section");
-var initialInput = document.querySelector("#inputInitial").value;
-var submitEl = document.querySelector(".btn btn-primary mb-2");
-var responsDiv = document.querySelector("#response");
-var finaPageEl = document.querySelector(".finalpage");
-var initialAndScore = document.querySelector("#NameScore");
-var timeElement = document.querySelector("#time");
-var errormessage = document.querySelector("#errormessage");
-var finalScore = document.querySelector("#final");
-var wrapperElement = document.querySelector(".wrapper");
-var oderListEl = document.querySelector("#q-list");
-var initialPageEl = document.querySelector(".initialpage");
-
 // Sets of Java Questions //
 var questions = [
     {
@@ -45,6 +29,22 @@ var questions = [
     }
 ]
 
+//** Declared Variables */
+var btnElement = document.querySelector("#start");
+var divContEL = document.querySelector(".divContainer");
+var hElement = document.querySelector("#title");
+var finishDiv = document.querySelector(".finish-section");
+var initialInput = document.querySelector("#inputInitial").value;
+var submitEl = document.querySelector(".btn btn-primary mb-2");
+var responsDiv = document.querySelector("#response");
+var finaPageEl = document.querySelector(".finalpage");
+var initialAndScore = document.querySelector("#NameScore");
+var timeElement = document.querySelector("#time");
+var errormessage = document.querySelector("#errormessage");
+var finalScore = document.querySelector("#finalS");
+var wrapperElement = document.querySelector(".wrapper");
+var oderListEl = document.querySelector("#q-list");
+var initialPageEl = document.querySelector(".initialpage");
 
  /**Add to HTML document, questions*/
 function displayQuestions() {
