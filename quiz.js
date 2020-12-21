@@ -1,4 +1,4 @@
-// Sets of Java Questions //
+//**Sets of Java Questions*/
 var questions = [
     {
         title: "What is the HTML tag under which one can write the JavaScript code?:",
